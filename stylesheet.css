@@ -1,0 +1,77 @@
+body {
+    font-family: 'Railway', sans-serif;
+}
+
+header h1 {
+    background-color: rgb(46, 49, 79);
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    font-weight: 50;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.center-main {
+    text-align: center;
+    background-color: rgb(137, 137, 137);
+    padding: 80px;
+}
+
+.center-main h2, .center-main p {
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.center-main img {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: auto;
+    border-radius: 90%;
+    margin: auto;
+}
+
+ article.container-deskripsi {
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+
+article.container-deskripsi h3{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+article.container-deskripsi h3, article.container-deskripsi p {
+    text-align: center;
+}
+
+article.personal-information {
+    display: block;
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-content: center;
+}
+
+article.personal-information h3 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+article.personal-information h3, article.personal-information p {
+    text-align: center;
+}
